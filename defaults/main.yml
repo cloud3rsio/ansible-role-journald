@@ -1,0 +1,22 @@
+---
+journald_Storage: auto
+journald_Compress: 'yes'
+journald_Seal: 'yes'
+journald_SplitMode: uid
+journald_SyncIntervalSec: 5m
+journald_RateLimitInterval: 30s
+journald_RateLimitBurst: 1000
+journald_SystemMaxUse: 500M
+journald_RuntimeMaxUse: 500M
+journald_MaxFileSec: 1month
+journald_ForwardToSyslog: 'yes'
+journald_ForwardToKMsg: 'no'
+journald_ForwardToConsole: 'no'
+journald_ForwardToWall: 'yes'
+journald_TTYPath: /dev/console
+journald_MaxLevelStore: debug
+journald_MaxLevelSyslog: debug
+journald_MaxLevelKMsg: notice
+journald_MaxLevelConsole: info
+journald_MaxLevelWall: emerg
+journald_LineMax: 48K
